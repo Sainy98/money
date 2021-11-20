@@ -1,0 +1,121 @@
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    background-image: linear-gradient(rgba(5, 5, 5, 0.712), rgba(0, 0, 0, 0.342)), url("https://live.staticflickr.com/2892/33600619022_822bf479cf_b.jpg");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+
+}
+
+#text {
+    text-align: center;
+    
+}
+
+
+label {
+    font-size: larger;
+    font-weight: bolder;
+    margin-right: 25px;
+    color: white;
+}
+
+input:hover {
+    background-color: rgba(89, 89, 95, 0.836);
+    font-weight: bolder;
+
+}
+
+
+input {
+    font-size: larger;
+    background-color: transparent;
+    border-width: thick;
+    width: 100px;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    color: beige;
+    font-weight: bolder;
+    border-radius: 10px;
+   
+}
+
+button {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 147px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#text {
+
+    padding-top: 40px;
+
+}
+
+table {
+    display: inline;
+}
+
+#table {
+
+    text-align: -webkit-center
+}
+
+@media screen and (max-width: 600px) {
+   
+
+}
+#h1{
+
+   
+   border-radius: 15px;
+   text-align: center;
+   size: 50px;
+  
+
+
+}
+h1{
+    color: rgb(22, 192, 30);
+ 
+}
+
+@media screen and (max-width: 500px){
+#h1{
+
+background-color: wheat;
+   
+
+
+
+}
+
+}
+span{
+    color: rgb(4, 248, 4);
+    font-weight: bolder;
+    margin-left: 145px;
+    font-size: larger
+}
+footer{
+  background-color: rgba(223, 226, 223, 0.603);
+  text-align: center;
+ padding-top: 2px;
+ 
+}
